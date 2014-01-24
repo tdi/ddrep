@@ -66,12 +66,10 @@
 \setlength{\lstxmargin}{\lstxframesep}
 \addtolength{\lstxmargin}{\lstframewidth}
 
-\newcommand{\ddcode}[1]{\textcolor{codecolor}{\texttt{\ttsloppy #1}}}
+\newcommand{\ttsloppy}{\spaceskip .5em plus .3em minus .3em\hyphenchar\font=\setminus-\relax}                                                                                                          \newcommand{\ddcode}[1]{\textcolor{codecolor}{\texttt{#1}}}
 \newcommand{\ddpath}[1]{\textcolor{pathcolor}{\path{#1}}}
 \newcommand{\ddkbd}[1]{\fbox{\small\sffamily{}#1}}
 \newcommand{\name}[1]{\textcolor{namecolor}{\textsf{#1}}}
-
-
 
 % default page layout
 \newlength{\bindinglen}
